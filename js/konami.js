@@ -2,7 +2,7 @@ var container = document.getElementById('animate');
 var emoji = ['🌮','🌮','🌶️','🌮'];
 var circles = [];
 
-for (var i = 0; i < 15; i++) {
+for (var i = 0; i < 20; i++) {
   addCircle(i * 150, [10 + 0, 300], emoji[Math.floor(Math.random() * emoji.length)]);
   addCircle(i * 150, [10 + 0, -300], emoji[Math.floor(Math.random() * emoji.length)]);
   addCircle(i * 150, [10 - 200, -300], emoji[Math.floor(Math.random() * emoji.length)]);
@@ -95,6 +95,3 @@ else
   audio.play();
   animate();
   })
-  
-
-
