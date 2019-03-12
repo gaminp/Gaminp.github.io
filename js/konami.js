@@ -91,7 +91,7 @@ else
         this.play();
     }, false);
 }
-  img.src='js/Konami.png';
+  img.src='js/konami.png';
   audio.play();
   animate();
   })
