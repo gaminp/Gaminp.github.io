@@ -9,6 +9,19 @@ body {
   font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+button.right {
+  position: absolute;
+  right: 0;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+}
+
 p {
   line-height: 1.75;
 }

@@ -3,6 +3,16 @@ body {
   overflow-x: hidden;
   @include body-font;
 }
+button.right {
+  position: absolute;
+  right: 0;
+}
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
 
 p {
   line-height: 1.75;

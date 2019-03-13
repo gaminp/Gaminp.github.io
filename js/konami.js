@@ -12,8 +12,11 @@ for (var i = 0; i < 20; i++) {
   addCircle(i * 150, [10 - 600, -300], emoji[Math.floor(Math.random() * emoji.length)]);
   addCircle(i * 150, [10 + 600, 300], emoji[Math.floor(Math.random() * emoji.length)]);
   addCircle(i * 150, [10 + 800, 300], emoji[Math.floor(Math.random() * emoji.length)]);
+  addCircle(i * 150, [10 + 800, -300], emoji[Math.floor(Math.random() * emoji.length)]);
   addCircle(i * 150, [10 + 1000, 300], emoji[Math.floor(Math.random() * emoji.length)]);
+  addCircle(i * 150, [10 + 1000, -300], emoji[Math.floor(Math.random() * emoji.length)]);
   addCircle(i * 150, [10 + 1200, 300], emoji[Math.floor(Math.random() * emoji.length)]);
+  addCircle(i * 150, [10 + 1200, -300], emoji[Math.floor(Math.random() * emoji.length)]);
 }
 
 
@@ -80,6 +83,7 @@ function onKonamiCode(cb) {
 onKonamiCode(function () {
   audio = new Audio('js/A.mp3');
   img = document.getElementById('imgkonami');
+  back = document.getElementById("header.masthead")
   if (typeof audio.loop == 'boolean')
 {
     audio.loop = true;
