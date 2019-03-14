@@ -83,7 +83,7 @@ function onKonamiCode(cb) {
 onKonamiCode(function () {
   audio = new Audio('js/A.mp3');
   img = document.getElementById('imgkonami');
-  back = document.getElementById("header.masthead")
+  back = document.getElementById("fundo")
   if (typeof audio.loop == 'boolean')
 {
     audio.loop = true;
@@ -95,7 +95,10 @@ else
         this.play();
     }, false);
 }
+  document.getElementsByClassName('masthead')[0].style.backgroundImage = "url=https://www.smokinbeans.com/wp-content/uploads/2018/05/Mexican-Fiesta.jpg";
   img.src='js/konami.png';
   audio.play();
+  animate();
+  animate();
   animate();
   })
