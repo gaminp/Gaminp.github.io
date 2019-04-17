@@ -83,6 +83,7 @@ function onKonamiCode(cb) {
 onKonamiCode(function () {
   audio = new Audio('js/A.mp3');
   img = document.getElementById('imgkonami');
+  img2 = document.getElementById('imgkonami2');
   if (typeof audio.loop == 'boolean')
 {
     audio.loop = true;
@@ -94,6 +95,7 @@ else
         this.play();
     }, false);
 }
+  img2.src='https://cdn.discordapp.com/attachments/227141030355402752/568122732101763114/unknown.png';
   img.src='js/konami.png';
   audio.play();
   animate();
